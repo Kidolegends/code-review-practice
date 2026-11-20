@@ -1,0 +1,23 @@
+{
+  "name": "code-review-practice",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Buggy TypeScript and Python snippets with written reviews, fixes and tests. Personal practice for code review work.",
+  "type": "module",
+  "license": "MIT",
+  "author": "João Batista dos Santos Neto",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "prettier": "^3.10.1",
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.1"
+  }
+}

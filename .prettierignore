@@ -1,0 +1,6 @@
+node_modules
+package-lock.json
+# The buggy snippets are intentionally ugly in places; keep them readable as written.
+snippets/**/buggy.ts
+.venv
+__pycache__
